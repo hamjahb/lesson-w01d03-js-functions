@@ -12,17 +12,20 @@ const youRock = function (name) {
 
 // 2
 const square = function (num) {
-    return num * num;
+    // return num * num;
+    return Math.pow(num, 2);
 }
 
 // 3
 const cube = function (num) {
-    return num * num * num;
+    // return num * num * num;
+    return Math.pow(num, 3);
 }
 
 // 4
 const toTheFourth =function(num){
-    return num * num * num * num;
+    // return num * num * num * num;
+    return Math.pow(num, 4);
 }
 
 // extra practice
